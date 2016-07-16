@@ -1,4 +1,5 @@
-export default function(/* server */) {
+export default function(server) {
+  server.create('user');
 
   /*
     Seed your development database using your factories.

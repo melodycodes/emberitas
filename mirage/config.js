@@ -1,4 +1,18 @@
 export default function() {
+  // index - get all users
+  this.get('/users');
+
+  // create - make a new user record
+  this.post('/users');
+
+  // show - find a specific user record
+  this.get('/users/:id');
+
+  // update - make changes to an existing user record
+  this.patch('/users/:id');
+
+  // destroy - nix a user record you don't want anymore
+  this.del('/users/:id');
 
   // These comments are here to help you get started. Feel free to delete them.
 
